@@ -1,40 +1,37 @@
-# Insurance Premium Calculator
+## 🛡️ Insurance Premium Calculator
+This project is a simple web application written entirely in PHP designed to calculate insurance costs. It offers options for different types of insurance, such as:
 
-Αυτό το project είναι μια απλή web εφαρμογή γραμμένη σε PHP που υπολογίζει το κόστος ασφάλισης, με επιλογές για διαφορετικούς τύπους ασφάλειας όπως:
+Life Insurance
 
-- Ασφάλεια ζωής
-- Ασφάλεια αυτοκινήτου
-- Άλλοι τύποι ασφάλισης
+Car Insurance
 
-Ο χρήστης μπορεί να επιλέξει τον τύπο ασφάλισης και να εισάγει **εκπτωτικό κωδικό**, αν διαθέτει, ώστε να εφαρμοστεί η αντίστοιχη έκπτωση στο τελικό ποσό.
+Other Insurance Types
 
-## 🛠️ Τεχνολογίες
+The user can select the insurance type and enter a discount code, if available, to apply the corresponding discount to the final premium amount.
 
-- **PHP** (όλα τα στοιχεία – εμφάνιση, φόρμα και λογική – βρίσκονται μέσα σε ένα μόνο αρχείο)
+## 🛠️ Technologies
+PHP: All elements—the presentation (form), the data handling, and the logic—are contained within a single file.
 
-## 📦 Περιεχόμενο
+## 📦 Content
+INSURANCE_FORM.php: The core application file.
 
-- `INSURANCE_FORM.php`: Το βασικό αρχείο της εφαρμογής
+🚀 Execution Guide
+Save the file to your computer.
 
-## 🚀 Εκτέλεση
+Use a local server environment such as:
 
-1. Αποθήκευσε το αρχείο στον υπολογιστή σου.
-2. Χρησιμοποίησε έναν τοπικό server όπως:
-   - [XAMPP](https://www.apachefriends.org/index.html)
-   - [Laragon](https://laragon.org/)
-3. Βάλε το αρχείο στον φάκελο `htdocs` ή `www` και άνοιξέ το μέσω browser:
+XAMPP
 
+Laragon
 
-## 🧮 Λειτουργίες
+Place the file inside the htdocs or www folder and open it via your browser (e.g., http://localhost/INSURANCE_FORM.php).
 
-- Επιλογή τύπου ασφάλισης
-- Εισαγωγή εκπτωτικού κωδικού
-- Υπολογισμός τελικού ποσού ασφάλισης
+## 🧮 Functionality
+Insurance type selection
 
-## 👤 Δημιουργός
+Discount code entry
 
-**Γιώργος-Λεωνίδας Βεντουράτος**
+Calculation of the final insurance premium
 
----
-
-📘 *Το project δημιουργήθηκε για εκπαιδευτικούς σκοπούς.*
+## 👤 Creator
+George-Leonidas Ventouratos
